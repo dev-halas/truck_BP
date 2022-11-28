@@ -1,0 +1,14 @@
+.purchaseTemplate {
+    padding: 5vh 0;
+}
+
+.page-template-purchase-template {
+
+    .pageHeader--image img {
+        opacity: .2;
+
+        @include responsive('tablet') {
+            opacity: 1;
+        }
+    }
+}

@@ -1,0 +1,123 @@
+.pageHeader {
+    background-color: $dark;
+    min-height: 60vh;
+    position: relative;
+    overflow: hidden;
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.pageHeader--inner {
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10vw;
+
+    .button--whiteOutline {
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+
+    @include responsive('tablet') {
+        flex-direction: column;
+        align-items: flex-start;
+        z-index: 10;
+
+        .button--whiteOutline {
+            margin-left: 5px;
+            margin-top: 30px;
+        }
+    }
+}
+
+.pageHeader--title {
+    min-height: 100%;
+    position: relative;
+    z-index: 10;
+    @include responsive('tablet') {
+        padding: 10vh 0;
+
+        .title--red, .title {
+            font-size: 28px;
+        }
+    }
+
+    
+}
+
+.pageHeader--image {
+    height: 100%;
+    position: relative;
+    padding-top: 50px;
+
+    img {
+        max-height: 60vh;
+    }
+
+    @include responsive('tablet') {
+        position: absolute;
+        bottom: 0;
+        z-index: 0;
+        opacity: .1;
+        height: auto;
+        img {
+            max-height: 40vh;
+            bottom: 0;
+        }
+    }
+}
+
+.pageHeader--phones {
+    display: flex;
+    margin-top: 30px;
+    align-self: flex-end;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    @include responsive('tablet') {
+        padding-left: 0;
+    }
+}
+
+.pageHeader--phone {
+    display: flex;
+    background-color: $red;
+    padding: 8px 16px;
+    width: fit-content;
+    margin-left: 15px;
+    gap: 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+
+    svg {
+        width: 20px;
+        height: 20px;
+        fill: $white;
+    }
+
+    @include responsive('small') {
+        margin-left: 0;
+    }
+
+}
+
+.pageHeader--phone:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}

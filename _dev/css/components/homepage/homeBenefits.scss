@@ -1,0 +1,36 @@
+.homeBenefits {
+    padding: 12vh 0;
+    @include responsive('tablet') {
+        padding: 50px 0;
+    }
+}
+
+.homeBenefits--inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    @include responsive('tablet') {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.homeBenefits--col {
+    grid-column: span 1;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: clamp(14px, 1vw, 20px);
+
+    svg {
+        max-width: 6vw;
+        @include responsive('tablet') {
+            max-width: 50px;
+        }
+    }
+
+    @include responsive('tablet') {
+        flex-direction: column;
+        gap: 0;
+        text-align: center;
+    }
+}

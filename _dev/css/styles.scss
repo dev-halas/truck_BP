@@ -1,0 +1,36 @@
+@import "./base/reset.scss";
+@import "./base/core.scss";
+@import "./base/flags.scss";
+
+/* ------ Layouts ------ */
+@import "./layout/header.scss";
+
+
+/* ------ homepage ------ */
+@import "./components/homepage/hero.scss";
+@import "./components/homepage/homeBenefits.scss";
+@import "./components/homepage/scaniaParts.scss";
+@import "./components/homepage/about.scss";
+@import "./components/homepage/home-mechanic.scss";
+@import "./components/homepage/meters.scss";
+@import "./components/homepage/service__purchase.scss";
+@import "./components/homepage/homeBlog.scss";
+
+
+/* ------ service template ------ */
+@import "./components/purchaseTemplate/purchaseTemplate.scss";
+
+/* ------ service template ------ */
+@import "./components/serviceTemplate/serviceContent.scss";
+
+/* ------ page header ------ */
+
+@import "./layout/pageHeader.scss";
+
+/* ------ animations ------ */
+
+@import "./base/animations.scss";
+
+/* ------ footer ------ */
+
+@import "./layout/footer.scss";

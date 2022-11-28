@@ -1,0 +1,28 @@
+.footer--langFlags {
+    display: flex;
+}
+
+.flag--PL, .flag--GB, .flag--DE, .flag--CZ {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.flag--PL {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.394' height='21' viewBox='0 0 20.394 21'%3E%3Cg id='poland' transform='translate(0 0.183)'%3E%3Cellipse id='Ellipse_6' data-name='Ellipse 6' cx='10' cy='10.5' rx='10' ry='10.5' transform='translate(0.394 -0.183)' fill='%23f0f0f0'/%3E%3Cpath id='Path_76' data-name='Path 76' d='M20.385,256A10.193,10.193,0,1,1,0,256' transform='translate(0 -245.376)' fill='%23d80027'/%3E%3C/g%3E%3C/svg%3E%0A");
+
+}
+
+.flag--GB {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20.774' height='21' viewBox='0 0 20.774 21'%3E%3Cg id='united-kingdom' transform='translate(0.389 0.183)'%3E%3Cellipse id='Ellipse_7' data-name='Ellipse 7' cx='10' cy='10.5' rx='10' ry='10.5' transform='translate(-0.389 -0.183)' fill='%23f0f0f0'/%3E%3Cg id='Group_57' data-name='Group 57' transform='translate(0.351 0.783)'%3E%3Cpath id='Path_77' data-name='Path 77' d='M10.575,100.142a10.155,10.155,0,0,0-1.756,3.547h5.3Z' transform='translate(-8.819 -96.506)' fill='%230052b4'/%3E%3Cpath id='Path_78' data-name='Path 78' d='M375.307,103.69a10.156,10.156,0,0,0-1.756-3.547l-3.546,3.547Z' transform='translate(-355.625 -96.507)' fill='%230052b4'/%3E%3Cpath id='Path_79' data-name='Path 79' d='M8.819,322.784a10.157,10.157,0,0,0,1.756,3.546l3.546-3.546Z' transform='translate(-8.819 -310.284)' fill='%230052b4'/%3E%3Cpath id='Path_80' data-name='Path 80' d='M326.329,10.575a10.156,10.156,0,0,0-3.547-1.756v5.3Z' transform='translate(-310.282 -8.819)' fill='%230052b4'/%3E%3Cpath id='Path_81' data-name='Path 81' d='M100.142,373.551a10.156,10.156,0,0,0,3.547,1.756v-5.3Z' transform='translate(-96.506 -355.625)' fill='%230052b4'/%3E%3Cpath id='Path_82' data-name='Path 82' d='M103.688,8.819a10.156,10.156,0,0,0-3.546,1.756l3.546,3.546Z' transform='translate(-96.506 -8.819)' fill='%230052b4'/%3E%3Cpath id='Path_83' data-name='Path 83' d='M322.783,375.307a10.157,10.157,0,0,0,3.547-1.756l-3.547-3.546Z' transform='translate(-310.283 -355.625)' fill='%230052b4'/%3E%3Cpath id='Path_84' data-name='Path 84' d='M370.005,322.784l3.546,3.546a10.156,10.156,0,0,0,1.756-3.546Z' transform='translate(-355.625 -310.284)' fill='%230052b4'/%3E%3C/g%3E%3Cg id='Group_58' data-name='Group 58' transform='translate(0 0.432)'%3E%3Cpath id='Path_85' data-name='Path 85' d='M20.3,8.863H11.522V.086a10.286,10.286,0,0,0-2.659,0V8.863H.086a10.286,10.286,0,0,0,0,2.659H8.863V20.3a10.286,10.286,0,0,0,2.659,0V11.522H20.3a10.286,10.286,0,0,0,0-2.659Z' transform='translate(0 0)' fill='%23d80027'/%3E%3Cpath id='Path_86' data-name='Path 86' d='M322.783,322.783l4.548,4.548q.314-.314.6-.654l-3.894-3.894h-1.253Z' transform='translate(-309.932 -309.932)' fill='%23d80027'/%3E%3Cpath id='Path_87' data-name='Path 87' d='M79.528,322.784h0l-4.548,4.548q.314.314.654.6l3.894-3.894Z' transform='translate(-71.995 -309.933)' fill='%23d80027'/%3E%3Cpath id='Path_88' data-name='Path 88' d='M65.08,79.528h0L60.532,74.98q-.314.314-.6.654l3.894,3.894H65.08Z' transform='translate(-57.547 -71.995)' fill='%23d80027'/%3E%3Cpath id='Path_89' data-name='Path 89' d='M322.783,65.081l4.548-4.548q-.314-.314-.654-.6l-3.894,3.894Z' transform='translate(-309.932 -57.548)' fill='%23d80027'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+.flag--DE {
+    background-image: url("data:image/svg+xml,%3Csvg id='germany' xmlns='http://www.w3.org/2000/svg' width='20.385' height='20.385' viewBox='0 0 20.385 20.385'%3E%3Cpath id='Path_73' data-name='Path 73' d='M15.923,323.669a10.2,10.2,0,0,0,19.117,0l-9.559-.886Z' transform='translate(-15.289 -309.932)' fill='%23ffda44'/%3E%3Cpath id='Path_74' data-name='Path 74' d='M25.482,0a10.2,10.2,0,0,0-9.559,6.647l9.559.886,9.559-.886A10.2,10.2,0,0,0,25.482,0Z' transform='translate(-15.289)'/%3E%3Cpath id='Path_75' data-name='Path 75' d='M.634,166.957a10.23,10.23,0,0,0,0,7.09H19.751a10.23,10.23,0,0,0,0-7.09Z' transform='translate(0 -160.31)' fill='%23d80027'/%3E%3C/svg%3E%0A");
+}
+
+.flag--CZ {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='21' viewBox='0 0 21 21'%3E%3Cg id='czech-republic' transform='translate(0 0.183)'%3E%3Ccircle id='Ellipse_5' data-name='Ellipse 5' cx='10.5' cy='10.5' r='10.5' transform='translate(0 -0.183)' fill='%23f0f0f0'/%3E%3Cpath id='Path_71' data-name='Path 71' d='M81.3,256s-6.315,7.209-6.321,7.207A10.193,10.193,0,0,0,92.38,256Z' transform='translate(-71.995 -245.376)' fill='%23d80027'/%3E%3Cpath id='Path_72' data-name='Path 72' d='M2.985,74.98a10.193,10.193,0,0,0,0,14.414l7.207-7.207Z' transform='translate(0 -71.563)' fill='%230052b4'/%3E%3C/g%3E%3C/svg%3E%0A");
+}

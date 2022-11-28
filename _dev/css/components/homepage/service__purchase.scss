@@ -1,0 +1,14 @@
+.service__purchase {
+    padding: 8vh 0;
+    background-color: $red;
+    color: $white;
+}
+
+.service__purchase--inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5vw;
+    @include responsive('tablet') {
+        grid-template-columns: 1fr;
+    }
+}
